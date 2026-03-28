@@ -1230,7 +1230,7 @@ $('#emailBtn').addEventListener('click',()=>window.location.href='mailto:alessan
 $('#liBtn').addEventListener('click',()=>window.open('https://linkedin.com/in/alessandroielitro','_blank'));
 
 // CV Download
-function dlCV(){const a=document.createElement('a');a.href='Alessandro_Ielitro_CV.pdf';a.download='Alessandro_Ielitro_CV.pdf';a.click()}
+function dlCV(){const a=document.createElement('a');a.href='https://drive.google.com/uc?export=download&id=1F1h5OoUgoDscXz-rnS6vkiDxsRSUvVDg';a.download='Alessandro_Ielitro_CV.pdf';document.body.appendChild(a);a.click();document.body.removeChild(a)}
 $('#cvBtn').addEventListener('click',dlCV);
 const hcb=$('#hireCvBtn');if(hcb)hcb.addEventListener('click',dlCV);
 
